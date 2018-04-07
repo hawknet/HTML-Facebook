@@ -1,4 +1,139 @@
-body, button, input, label, select, td, textarea {
+* {
+    text-decoration: none;
+    line-height: 1.34;
+}
+body, button, input, label, td, footer {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
+}
+body {
+    background: white;
+    color: #1d2129;
+}
+
+#bluebar {
+    background-color: #29487d;
+    color: white;
+    height: 82px;
+    min-width: 980px;
+}
+.logo {
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 185px;
+}
+.action1 {
+    display: block;
+    float: right;
+    margin-top: 19px;
+    margin-right: 185px;
+}
+.action1_href {
+    color: #9cb4d8;
+    text-decoration: none;
+}
+.action1_href:hover {
+    text-decoration: underline;
+}
+.ButtonConfirm {
+    border: 1px solid #29487d;
+    border-color: #4267b2;
+    background-color: #4267b2;
+    color: white;
+}
+.ButtonConfirm:hover {
+    background-color:#29487d;
+}
+/*  елементи центральної частини     */
+.center {
+    display: flex;
+    height: 374px;
+    margin: auto;
+    background-color: #e9ebee;
+}
+.center_form {
+    display: block;
+    width: 555px;
+    height: 171px;
+    margin: auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+}
+
+.h2 {
+    margin-left: 10px;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+.h2Curve {
+    width: 555px;
+    border-bottom: 1px solid #dddfe2;
+    height: 8px;
+    margin-bottom: 8px;
+}
+input.text {
+    width: 300px;
+}
+.center_form table {
+    margin: auto;
+    padding: 6px;  
+    line-height: 2;
+}
+.center_submit {
+    display: flex;
+    width: 555px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    justify-content: flex-end;
+    position:absolute;
+    top: 131px;
+    z-index: 10;
+}
+
+/*  нижні елементи - списки  */
+
+.footer {
+    display: inline-block;
+    justify-content: center;
+    height: 394px;
+    margin: auto; 
+    background: white;
+    margin-right: 185px;
+    margin-left: 185px;
+    margin-top: 250px;
+}
+
+ul.hr1 li {
+    display: inline; /* Отображать как строчный элемент */
+    padding: 6px;
+    font-size: 12px;
+    line-height: 2;
+}
+ul.hr1 li:hover{
+    text-decoration: underline;
+}
+.contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+ul.hr2 li {
+    display: inline; /* Отображать как строчный элемент */
+    padding: 6px;
+    font-size: 12px;
+    line-height: 2;
+}
+ul.hr2 li :hover {
+    text-decoration: underline;
+}
+.copyright {
+    padding: 6px;
+    font-size: 11px;
+    color: #737373;
+    line-height: 2;
 }
